@@ -1,0 +1,23 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
+    text-align: center;
+    top: 0;
+    left: 0;
+}
+
+.game-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 100%;
+    min-height: 100%;
+    margin-top: 23vh;
+}
+
+#canvas {
+    background-color: lightblue;
+    border-bottom: 1px solid black;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
